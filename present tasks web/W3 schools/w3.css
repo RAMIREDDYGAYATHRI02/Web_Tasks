@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 8vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img {
+    width: 50px;
+    height: 40px;
+    margin: 10px 0 0 10px;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    gap: 30px;
+}
+
+.menus a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.my-button {
+    background-color: white;
+    width: 180px;
+    border: none;
+    color: lightgray;
+    padding: 10px 0px;
+    border: 1px solid lightgray;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px 2px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.my-button .fas {
+    color: black;
+}
+
+.end-menus .fa-solid {
+    color: #9a68f6;
+}
+
+.my-button:hover {
+    border: solid 2px #45a049;
+}
+
+#icon-theme {
+    margin-left: 25px;
+}
+
+.empty {
+    width: 250px;
+    height: 8vh;
+    /* background-color: red; */
+}
+
+.end-menus {
+    margin-left: 10px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.end-menus a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.singup {
+    background-color: #04aa6d;
+    width: 100px;
+    border: none;
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    z-index: 1;
+    margin: 4px -33px 0px 0px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.login {
+    background-color: #d9eee1;
+    width: 100px;
+    border: none;
+    color: black;
+    padding: 10px 0px 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 0px 0px 0px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.languages {
+    width: 100%;
+    height: 5vh;
+    background-color: #282a35;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.languages li {
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.img-div img {
+    width: 100%;
+    height: 80vh;
+}
+
+.text1 {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.text2 {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fef29e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0;
+    font-size: 27px;
+}
+
+.search-tuto {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, white 80%, green 80%);
+    border: none;
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 480px;
+    height: 6vh;
+
+}
+
+.search-tuto .fas {
+    color: white;
+    cursor: pointer;
+}
+
+.last-txt {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0;
+    font-size: 25px;
+}
+
